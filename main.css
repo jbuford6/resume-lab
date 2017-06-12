@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{
     margin:0 auto;
     max-width: 1200px;
@@ -54,7 +57,7 @@ body{
     }
 
 .live {
-    margin-top: 60px;
+    margin-top: 0px;
     margin-left: 305px;
     font-weight: bold;
     text-transform: uppercase;
@@ -76,17 +79,15 @@ body{
 
 .box {
     position: relative;
-    margin-top: -20px;
-    margin-left: 540px;
-    max-width: 500px;
     border:2px black solid;
-    width: 490px;
+    width: 60%;
     height: 300px;
     background-color: white;
+    float: left;
+    align: center;
 }
 
 .experience {
-    
     margin-left: 80px;
 }
 
@@ -154,4 +155,22 @@ form {
 .bye {
     display: inline-block;
     padding: 20px;
+}
+.name { 
+    font-size: 20px;
+}
+.hello {
+    font-size: 40px;
+}
+.details {
+    left: 300px;
+}
+.images {
+    width: 100px;
+    float: left;
+}
+.details {
+    text-align: right;
+    width: 40%;
+    float: left;
 }
