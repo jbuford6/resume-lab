@@ -69,6 +69,7 @@ body{
     max-width: 1100px;
     max-height: 500px;
     height:400px;
+    padding: 5%;
     
 }
 
@@ -84,7 +85,7 @@ body{
     height: 300px;
     background-color: white;
     float: left;
-    align: center;
+    padding: 5%;
 }
 
 .experience {
@@ -95,7 +96,8 @@ body{
     max-width: 400px;
     display: inline-block;
     height: 200px;
-    padding: 40px;
+    padding: 60px;
+    margin-bottom: 20px;
 }
 
 project {
@@ -104,7 +106,7 @@ project {
 }
 
 .project-images {
-    height:200px;
+    height: 200px;
     margin: none;
 }
 
@@ -143,18 +145,9 @@ form {
      height: 150px;
  }
 
-.images {
-    margin-left: 500px;
-}
-
 .size {
     height:30px;
     width:30px;
-}
-
-.bye {
-    display: inline-block;
-    padding: 20px;
 }
 .name { 
     font-size: 20px;
@@ -166,11 +159,16 @@ form {
     left: 300px;
 }
 .images {
-    width: 100px;
-    float: left;
+    text-align: center;
 }
 .details {
     text-align: right;
     width: 40%;
     float: left;
+}
+.images img {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+
 }
